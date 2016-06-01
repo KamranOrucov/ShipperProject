@@ -457,7 +457,8 @@ input[type="text"] {
     margin-bottom: 15px;
 }
 
-.bootstrap-select button[type="button"] {
+
+.button button[type="button"] {
     height: 40px;
     background: none;
     color: inherit;
@@ -466,9 +467,11 @@ input[type="text"] {
     font-weight: 400;
     font-size: 14px;
     padding: 0 15px;
-}
+} 
 
-  .bootstrap-select button[type="button"] {
+
+
+  .btn dropdown-toggle btn-default button[type="button"] {
     height: 40px;
     background: none;
     color: inherit;
@@ -478,6 +481,13 @@ input[type="text"] {
     font-size: 14px;
     padding: 0 15px;
 }
+
+.btn btn-default dropdown-toggle{
+	width: 200px;
+	height: 40px;
+	
+}
+
 
 element.style {
     max-height: 308px;
@@ -994,7 +1004,7 @@ input[type="text"]  {
 
 .dark-footer .middle-bar ul {
     float: left;
-    margin-right: 30px;
+    margin-right: 50px;
 
 }
 
@@ -1023,5 +1033,5 @@ input[type="text"]  {
 .dark-footer .sub-footer .copyright {
     width: 100%;
     float: left;
-    font-size: 12px;
-}
+    font-size: 14px;
+}n
